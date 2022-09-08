@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-/* A program that exactly prints \"Programming is like building a multilingual puzzle using puts */
+/**
+ * main - Entry point
+ *
+ * Description: prints \"Programming is like building a multilingual puzzle 
+ *
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
