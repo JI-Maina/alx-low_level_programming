@@ -25,7 +25,7 @@ int main(void)
 		n = rand() - RAND_MAX / 2;
 
 		/* find last digit of n */
-		char l = (n % 10);
+		int l = (n % 10);
 
 		if (l > 5)
 		{
