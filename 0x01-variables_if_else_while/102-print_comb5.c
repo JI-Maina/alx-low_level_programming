@@ -30,7 +30,7 @@ int main(void)
 					putchar(c);
 					putchar(d);
 
-					if (a < '8' || b < '7' || c < '8' || d < '8')
+					if (a < '9' || b < '8' || c < '9' || d < '9')
 					{
 						putchar(',');
 						putchar(' ');
