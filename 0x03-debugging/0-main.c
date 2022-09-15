@@ -5,11 +5,11 @@
  * Retrun: 0 (success)
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
-	i = 0;
+	i = '0';
 	positive__or_negative(i);
 
 	return (0);
