@@ -7,7 +7,7 @@
  * @src: string to be moved
  * @n: number of characters to be updated
  *
- * Retrn: a pointer to the resulting string dest
+ * Return: a pointer to the resulting string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
