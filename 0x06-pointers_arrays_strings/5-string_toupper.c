@@ -3,6 +3,8 @@
 /**
  * string_toupper - Changes all lowercase letters to uppercase
  *
+ * @str: an array of characters to be converted
+ *
  * Return: char in uppercase
  */
 
