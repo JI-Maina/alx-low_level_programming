@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * allo_grid - Draws a 2 dimensional array
+ * alloc_grid - Draws a 2 dimensional array
  *
  * @width: number of columns of the array
  * @height: number of rows of our array
@@ -25,6 +25,19 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < height; i++)
 	{
 		ptr[i] = malloc(width * sizeof(int));
+
+		if (ptr[i] == NULL)
+		{
+			while (i >= 0)
+			{
+				free(ptr[i]);
+				i--;
+			}
+
+			free(ptr);
+
+			return (NULL);
+		}
 
 		for (j = 0; j < width; j++)
 		{
