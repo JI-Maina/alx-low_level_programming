@@ -24,7 +24,7 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	if (n == 0)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
