@@ -1,3 +1,4 @@
+#include <stddef.h>
 
 /**
  * int_index - Searches forr an integer
