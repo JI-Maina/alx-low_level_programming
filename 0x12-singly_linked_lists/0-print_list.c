@@ -13,6 +13,9 @@ size_t print_list(const list_t *h)
 	size_t count;
 	char *str;
 
+	if (h == NULL)
+		return (NULL);
+
 	count = 0;
 	while (h != NULL)
 	{
