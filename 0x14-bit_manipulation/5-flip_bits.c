@@ -6,7 +6,7 @@
  * @n: number to flip
  * @m: number to be flipped
  *
- * return: number of bits that was needed to flip
+ * Return: number of bits that was needed to flip
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
